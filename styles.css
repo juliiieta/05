@@ -140,6 +140,8 @@ aside li {
 footer {
     margin-top: 10px;
 }
+
+/* lo que agregue yo */
 #opciones {
     text-align: center;
     list-style: none; /* elimina los puntitos (viñeta) */
@@ -149,14 +151,15 @@ footer {
     display: inline-block; /* la lista la coloca horizontalmente */
     padding: 10px;
 }
-#lista {
+.lista {
     list-style: none;
 }
 .boton {
     text-decoration: none; /* Eliminamos el subrayado del enlace */
     color:  rgb(0, 0, 0);
-    border: 2px solid rgb(255, 0, 0);
     padding: 5px; /* margen interior */
     border-radius: 5px;
     display: inline-block;
+    font-size: 25px;
+    text-align: center;
 }
